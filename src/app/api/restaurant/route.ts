@@ -14,7 +14,12 @@ export async function GET(request: NextRequest) {
   const isPublic = url.searchParams.get('public') === 'true';
   
   if (!isPublic && !checkAuth(request)) {
-    return NextResponse.json({ error: 'Yetkisiz erişim' }, { status: 401 });
+    return NextResponse.json({ 
+      error: 'Yetkisiz erişim', 
+      message: 'Public erişim için ?public=true parametresi ekleyin veya admin girişi yapın',
+      isPublic,
+      hasAuth: checkAuth(request)
+    }, { status: 401 });
   }
 
   try {
@@ -43,7 +48,11 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error('Veri okuma hatası:', error);
     return NextResponse.json(
-      { error: 'Veri okunamadı' }, 
+      { 
+        error: 'Veri okunamadı',
+        details: error instanceof Error ? error.message : 'Bilinmeyen hata',
+        isPublic
+      }, 
       { status: 500 }
     );
   }
