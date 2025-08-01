@@ -1,0 +1,213 @@
+{
+  "info": {
+    "name": "Cafe İstanbul 1",
+    "logo": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=200&h=200&fit=crop&crop=center",
+    "backgroundImage": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "wifi": {
+      "name": "CafeIstanbul_WiFi",
+      "password": "welcome2023"
+    },
+    "footer": {
+      "welcomeText": "Bu dijital menü QR kod ile erişilmiştir",
+      "priceNote": "",
+      "copyright": "© 2024 Cafe İstanbul 1 • Tüm hakları saklıdır"
+    }
+  },
+  "categories": [
+    {
+      "id": "kahvalti",
+      "name": "Kahvaltılıklar",
+      "description": "Taze ve lezzetli kahvaltı seçenekleri",
+      "order": 1,
+      "items": [
+        {
+          "id": "serpme-kahvalti",
+          "name": "Serpme Kahvaltı",
+          "description": "Peynir çeşitleri, zeytin, reçel, bal, tereyağı, yumurta, sucuk, simit",
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=400&h=300&fit=crop&crop=center",
+          "available": true,
+          "preparationTime": "15-20 dk",
+          "rating": 4.8,
+          "reviewCount": 124
+        },
+        {
+          "id": "omlet",
+          "name": "Karışık Omlet",
+          "description": "Sebzeli omlet, ekmek ve çay ile",
+          "price": 85,
+          "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=400&h=300&fit=crop&crop=center",
+          "available": true,
+          "preparationTime": "8-12 dk",
+          "rating": 4.5,
+          "reviewCount": 89
+        },
+        {
+          "id": "menemen",
+          "name": "Menemen",
+          "description": "Domates, biber, soğan ve yumurta ile hazırlanmış",
+          "price": 75,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNkDRK1cRwZA39aiYZR2KyCGamqPI8KEWNxw&s",
+          "available": true,
+          "preparationTime": "10-15 dk",
+          "rating": 4.6,
+          "reviewCount": 56
+        }
+      ]
+    },
+    {
+      "id": "sicak-icecekler",
+      "name": "Sıcak İçecekler",
+      "description": "Özenle hazırlanmış sıcak içecekler",
+      "order": 2,
+      "items": [
+        {
+          "id": "turk-kahvesi",
+          "name": "Türk Kahvesi",
+          "description": "Geleneksel Türk kahvesi, lokum ile",
+          "price": 35,
+          "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop&crop=center",
+          "available": true,
+          "preparationTime": "5-8 dk",
+          "rating": 4.9,
+          "reviewCount": 203
+        },
+        {
+          "id": "cappuccino",
+          "name": "Cappuccino",
+          "description": "Espresso ve sütlü köpük ile",
+          "price": 40,
+          "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=300&fit=crop&crop=center",
+          "available": true,
+          "preparationTime": "3-5 dk",
+          "rating": 4.7,
+          "reviewCount": 156
+        },
+        {
+          "id": "cay",
+          "name": "Türk Çayı",
+          "description": "Demli Türk çayı",
+          "price": 15,
+          "image": "https://images.unsplash.com/photo-1594631661960-4baa99394ac4?w=400&h=300&fit=crop&crop=center",
+          "available": true,
+          "preparationTime": "2-3 dk",
+          "rating": 4.3,
+          "reviewCount": 78
+        }
+      ]
+    },
+    {
+      "id": "soguk-icecekler",
+      "name": "Soğuk İçecekler",
+      "description": "Serinletici içecek seçenekleri",
+      "order": 3,
+      "items": [
+        {
+          "id": "limonata",
+          "name": "Ev Yapımı Limonata",
+          "description": "Taze sıkılmış limon ve nane ile",
+          "price": 25,
+          "image": "https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=400&h=300&fit=crop&crop=center",
+          "available": true,
+          "preparationTime": "3-5 dk",
+          "rating": 4.6,
+          "reviewCount": 112
+        },
+        {
+          "id": "ayran",
+          "name": "Ayran",
+          "description": "Geleneksel Türk ayranı",
+          "price": 20,
+          "image": "https://images.unsplash.com/photo-1603833797131-3d1c78d5b4cb?w=400&h=300&fit=crop&crop=center",
+          "available": true,
+          "preparationTime": "1-2 dk",
+          "rating": 4.4,
+          "reviewCount": 67
+        },
+        {
+          "id": "meyve-suyu",
+          "name": "Taze Sıkılmış Portakal Suyu",
+          "description": "100% doğal portakal suyu",
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=400&h=300&fit=crop&crop=center",
+          "available": false,
+          "preparationTime": "3-4 dk",
+          "rating": 4.2,
+          "reviewCount": 34
+        },
+        {
+          "id": "as",
+          "name": "as",
+          "description": "asads",
+          "price": 120,
+          "image": "",
+          "available": true,
+          "preparationTime": "",
+          "rating": 0,
+          "reviewCount": 0
+        }
+      ]
+    },
+    {
+      "id": "tatlilar",
+      "name": "Tatlılar",
+      "description": "Ev yapımı tatlı lezzetleri",
+      "order": 4,
+      "items": [
+        {
+          "id": "baklava",
+          "name": "Baklava",
+          "description": "Antep fıstıklı geleneksel baklava",
+          "price": 60,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-4itNqO8_rEobVsiUuPEgtpvLJUp3xu2_WQ&s",
+          "available": true,
+          "preparationTime": "5-10 dk",
+          "rating": 4.9,
+          "reviewCount": 187
+        },
+        {
+          "id": "kunefe",
+          "name": "Künefe",
+          "description": "Sıcak künefe, dondurma ile",
+          "price": 65,
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=center",
+          "available": true,
+          "preparationTime": "8-12 dk",
+          "rating": 4.8,
+          "reviewCount": 145
+        },
+        {
+          "id": "sutlac",
+          "name": "Sütlaç",
+          "description": "Ev yapımı fırın sütlacı",
+          "price": 35,
+          "image": "https://delishglobe.com/wp-content/uploads/2024/11/Turkish-Firin-Sutlac-Baked-Rice-Pudding.png",
+          "available": true,
+          "preparationTime": "2-5 dk",
+          "rating": 4.5,
+          "reviewCount": 93
+        }
+      ]
+    },
+    {
+      "id": "abca",
+      "name": "abca",
+      "description": "aaa",
+      "order": 5,
+      "items": [
+        {
+          "id": "asd-asasd",
+          "name": "asd asasd",
+          "description": "asdasda",
+          "price": 350,
+          "image": "https://static.ticimax.cloud/65248/uploads/urunresimleri/buyuk/taze-kasar-peyniri-1000g--8aa0-.jpg",
+          "available": true,
+          "preparationTime": "20-25 dk",
+          "rating": 3.8,
+          "reviewCount": 15
+        }
+      ]
+    }
+  ],
+  "adminPassword": "2121"
+}
